@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+.jhalar{
+    width: 200px;
+    margin-bottom: -190px;
+}
+.deepak{
+    width: 270px;
+}
+
+.first-deepak{
+    margin-left: 69px;
+}
+
+.hero-section{
+    min-height: 100vh;
+    /* background-color:#F99501; */
+    background-image: url(/images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.para-and-audio{
+    margin-left: 15rem;
+}
+
+.hero-section p{
+    font-size: 40px;
+    font-family: 'Salsa';
+    max-width: 400px;
+   
+}
+
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+     color: #000;
+     }
+
+.audio-container{
+    background-color: #FBD8A4;
+    max-width: max-content;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: 'Salsa';
+
+}
+
+@media (max-width:840px){
+    .first-deepak{
+        display: block;
+        margin-left: auto;
+    }
+    .second-deepak{
+        display: none;
+    }
+    .para-and-audio{
+        margin-left: 1rem;
+    }
+    .jhalar{
+        margin-bottom: 0;
+    }
+    .audio-container span{
+        display: none;
+    }
+    .playing-music-icon{
+        display: none;
+    }
+    .hero-section p{
+        font-size: 32px;
+    }
+}
+@media (max-width:540px){
+    .hero-section p{
+        font-size: 24px;
+    }
+    .first-deepak{
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    /* grid-template-columns: repeat(4,20%); */
+    /* grid-template-columns: 1fr 1fr 1fr; /* jetli pan width hase ene equaly divide kari de se,  3 var fr aapiyu che to 3 column equal width ni kari dese */
+    /* grid-template-columns: repeat(4,1fr); */
+
+
+
+    /* gap: 10px; */
+}
+
+.box {
+    color: white;
+    font-size: 4rem;
+ 
+}
+
+.box-1 {
+    background-color: green;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.box-2 {
+    background-color: blueviolet;
+}
+
+.box-3 {
+    background-color: blue;
+}
+
+.box-4 {
+    background-color: brown;
+}
+
+.box-5 {
+    background-color: coral;
+}
+
+.box-6 {
+    background-color: darkblue;
+}
+
+.box-7 {
+    background-color: darkred;
+}
+
+.box-8 {
+    background-color: darkslategray;
+}
+
+.box-9 {
+    background-color: gray;
+}
+
+.box-10 {
+    background-color: navy;
+}

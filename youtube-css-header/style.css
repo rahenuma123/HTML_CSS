@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+.header{
+    background-color: rgba(0, 55, 255, 0.956);
+    padding: 4rem;
+    color: white;
+    background-size: 270px;
+    background-position-x: 100%;
+    background-position-y: -170px;
+    background-repeat: no-repeat;
+    background-image: url(/pictures/background\ \(1\).png);
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+.header img{
+    height: 5rem;
+    width: 5rem;
+    border: 5px solid  white;
+    border-radius: 100%;
+    vertical-align: middle ;
+   
+}
+
+img{
+    margin-left: -1rem;
+}
+
+.images{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}

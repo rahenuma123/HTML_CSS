@@ -1,0 +1,20 @@
+img{
+    float: left;
+    max-width: 100px;
+
+}
+.container{
+
+    float: left;
+}
+.first{
+    margin-bottom:100px ;
+    margin-right: 80%;
+}
+
+.second{
+    margin-top: -780px;
+    margin-left: 400px;
+    margin-right: 50%;
+    
+}

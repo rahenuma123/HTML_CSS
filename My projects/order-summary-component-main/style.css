@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: rgb(224,232,255);
+    background-attachment: fixed;    
+    font-family: "Red Hat Display", sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin-inline: 450px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url("/images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}
+h2{
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    opacity: 0.4;
+    text-align: center;
+    /* padding: 10px; */
+    font-family: sans-serif;
+    font-size:small;
+    margin-inline: 40px;
+}
+.audio-container{
+    /* max-width: 300px;
+    min-height: 70px; */
+    background-color: rgb(248, 251, 254);
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 30px; */
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+.audio-container img{
+    width: 30px;
+    position: fixed;
+    margin-right: 200px;
+    font-size:x-small;
+}   
+h6{
+    /* margin-left: 100; */
+    position: fixed;
+    font-size: x-small;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+a{
+    position: fixed;
+    margin-left: 190px;
+    font-size: x-small;
+}
+.year{
+    opacity: 0.4;
+    padding-bottom: 20px;
+    /* margin-top: 30px;
+    margin-right: 20px; */
+    font-size: x-small;
+    padding-top: 30px;
+    margin-left:50px;
+
+}
+/* .payment{
+    max-width: 250px;
+    min-height: 30px;
+    background-color: rgb(56,42,225);
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:snow;
+    border-radius: 10px;
+    box-shadow: 70px;
+}*/
+.payment p{
+    color: white;
+    /* margin-bottom: 500px; */
+} 
+
+.payment span{
+    background-color: rgb(56,42,225);
+    color: white;
+    font-size: x-small;
+    /* margin-top: 100px; */
+    margin-left:50px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px rgb(60, 64, 65);
+    border-radius: 10px;
+}
